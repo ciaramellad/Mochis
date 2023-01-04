@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset='utf-8'>
+    <title>We love Mochis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&family=Noto+Sans&display=swap" rel="stylesheet">
+    <meta name="description" content="Heladitos japoneses"/>
+    <link rel="icon" href="favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<!--Nav section-->
+    <header>
+      <ul>
+        <li>Programación I</li>
+        <li>Parcial II</li>
+        <li>Ciaramella Daiana - Zayas Micaela</li>
+      </ul>
+    </header>
+    <!-- Ending nav section-->
+    <main>
+      <section>
+        <h1>MOCHIS</h1>
+        <h2 class="subtitulo">Helados japoneses</h2>
+      </section>
+      <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h3 class="carrito">Carrito</h3>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <!-- Precio total -->
+                <p class="mochis text-right"><strong>Total: </strong></span>&dollar;<span id="total"></span></p>
+            </aside>
+        </div>
+      </div>
+    </main>
+      
+    <!--footer section-->
+    <footer>
+      <ul>
+        <li>Profesor Julian Preiss</li>
+        <li>
+          <a href="mailto:julian.preiss@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">julian.preiss@davinci.edu.ar</a>
+        </li>
+        <li>Programación I</li>
+      </ul>
+    </footer>
+  <!--javascript -->
+    <script src='script.js'></script>
+  </body>
+</html>
